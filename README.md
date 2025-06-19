@@ -65,20 +65,20 @@ Open your browser at: http://127.0.0.1:5000
 
 
 🧠 How It Works
-- 1.The user inputs text into the web form.
-- 2.The system cleans the text using NeatText (removing stopwords, handles, etc.).
-- 3.The cleaned text is passed to the Logistic Regression model via a pipeline.
-- 4.The predicted emotion is displayed with an appropriate emoji and confidence score.
+- The user inputs text into the web form.
+- The system cleans the text using NeatText (removing stopwords, handles, etc.).
+- The cleaned text is passed to the Logistic Regression model via a pipeline.
+- The predicted emotion is displayed with an appropriate emoji and confidence score.
 
 ---
 
 🎭 Emoji Mapping
 
 - emotions_emoji_dict = {
--    "anger": "😠", "disgust": "🤮", "fear": "😨😱", "happy": "🤗",
--    "joy": "😂", "neutral": "😐", "sad": "😔", "sadness": "😔",
--    "shame": "😳", "surprise": "😮"
-- }
+    "anger": "😠", "disgust": "🤮", "fear": "😨😱", "happy": "🤗",
+    "joy": "😂", "neutral": "😐", "sad": "😔", "sadness": "😔",
+    "shame": "😳", "surprise": "😮"
+ }
 
 ---
 
@@ -105,9 +105,9 @@ Enhancements that can be added to the project:
 🤝 Contributing
 Want to contribute? Awesome!
 
-- 1.Fork this repository
-- 2.Create your feature branch (git checkout -b feature-xyz)
-- 3.Commit your changes
-- 4.Push and open a pull request
+- Fork this repository
+- Create your feature branch (git checkout -b feature-xyz)
+- Commit your changes
+- Push and open a pull request
 
-- Contributions, issues, and feature requests are welcome!
+ Contributions, issues, and feature requests are welcome!
