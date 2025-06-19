@@ -62,11 +62,13 @@ python app.py
 Open your browser at: http://127.0.0.1:5000
 
 
+
 🧠 How It Works
-The user inputs text into the web form.
-The system cleans the text using NeatText (removing stopwords, handles, etc.).
-The cleaned text is passed to the Logistic Regression model via a pipeline.
-The predicted emotion is displayed with an appropriate emoji and confidence score.
+1.The user inputs text into the web form.
+2.The system cleans the text using NeatText (removing stopwords, handles, etc.).
+3.The cleaned text is passed to the Logistic Regression model via a pipeline.
+4.The predicted emotion is displayed with an appropriate emoji and confidence score.
+
 
 🎭 Emoji Mapping
 
@@ -75,6 +77,8 @@ emotions_emoji_dict = {
     "joy": "😂", "neutral": "😐", "sad": "😔", "sadness": "😔",
     "shame": "😳", "surprise": "😮"
 }
+
+
 ✅ Results
 Example Output:
 
