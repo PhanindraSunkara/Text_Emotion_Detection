@@ -61,6 +61,7 @@ python app.py
 
 Open your browser at: http://127.0.0.1:5000
 
+---
 
 
 🧠 How It Works
@@ -69,6 +70,7 @@ Open your browser at: http://127.0.0.1:5000
 3.The cleaned text is passed to the Logistic Regression model via a pipeline.
 4.The predicted emotion is displayed with an appropriate emoji and confidence score.
 
+---
 
 🎭 Emoji Mapping
 
@@ -78,6 +80,7 @@ emotions_emoji_dict = {
     "shame": "😳", "surprise": "😮"
 }
 
+---
 
 ✅ Results
 Example Output:
@@ -87,6 +90,7 @@ Example Output:
 😊 Emoji: 😂
 📊 Confidence: 0.86
 
+---
 
 🔮 Future Improvements
 Enhancements that can be added to the project:
@@ -97,6 +101,7 @@ Enhancements that can be added to the project:
 📱 Extend to a mobile app using Flutter or React Native
 🗣️ Add speech-to-text input support
 
+---
 🤝 Contributing
 Want to contribute? Awesome!
 
