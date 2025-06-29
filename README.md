@@ -34,9 +34,9 @@ Example entries:
 
 Emotion Text
 
--joy Sage Act upgrade on my to-do list for tomorrow.
--sadness On the way to my homegirl's baby funeral!!!
--surprise I got a gift! Hope you like it!
+- joy Sage Act upgrade on my to-do list for tomorrow.
+- sadness On the way to my homegirl's baby funeral!!!
+- surprise I got a gift! Hope you like it!
 
 
 > The dataset includes 9 emotion labels: joy, sadness, anger, fear, surprise, neutral, disgust, shame, and happy.
@@ -53,6 +53,7 @@ cd Text_Emotion_Detection
 
 ### Step 2: Install Dependencies
 pip install -r requirements.txt
+
 Or manually:
 pip install flask pandas numpy scikit-learn neattext altair
 
